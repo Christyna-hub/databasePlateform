@@ -14,8 +14,8 @@ $(function () {
         var myChart = echarts.init(document.getElementById('echarts_1'));
 
         var data = [
-            {value: 42,name: '行业一'},
-            {value: 23,name: '行业二'},
+            {value: 50,name: '行业一'},
+            {value: 30,name: '行业二'},
             {value: 70,name: '行业三'},
 
         ];
@@ -26,7 +26,7 @@ $(function () {
                 trigger: 'item',
                 formatter: "{b}: <br/>{c} ({d}%)"
             },
-            color: [ '#20b9cf', '#2089cf', '#205bcf'],
+            color: [ '#2e8f9f', '#8bb8d7', '#4978ea'],
             legend: { //图例组件，颜色和名字
                 x: '70%',
                 y: 'center',
@@ -851,7 +851,7 @@ option = {
                 {
                     // name:'简易程序案件数',
 					 lineStyle:{
-                        color:'#72b0f9',
+                        color:'#75a1d3',
                     },
 					
                     type:'line',
@@ -860,10 +860,10 @@ option = {
                         normal: {type: 'default',
                             color: new echarts.graphic.LinearGradient(0, 0, 0, 0.8, [{
                                 offset: 0,
-                                color: 'rgba(129,197,255,.6)'
+                                color: 'rgba(61,129,187,0.6)'
                             }, {
                                 offset: 1,
-                                color: 'rgba(129,197,255,.0)'
+                                color: 'rgba(61,129,187,0.6)'
                             }], false)
                         }
                     },
@@ -871,7 +871,7 @@ option = {
                     itemStyle: {
                         normal: {areaStyle: {type: 'default'}}
                     },
-                    data:[580, 490, 700,450, 550, 660, 540]
+                    data:[580, 490, 700,450, 550, 660, 800]
                 }
             ]
         };

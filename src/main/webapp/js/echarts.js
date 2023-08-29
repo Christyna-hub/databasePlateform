@@ -917,11 +917,11 @@ option = {
                     center : ['50%', '50%'],
                     roseType : 'area',
                     data:[
-                        {value:70, name:'NO.4'},
-                        {value:90, name:'NO.3'},
-                        {value:110, name:'NO.2'},
-                        {value:150, name:'NO.1'},
-                        {value:40, name:'NO.5'}
+                        {value:70, name:'NO.4 0km-100km'},
+                        {value:90, name:'NO.3 100km-300km'},
+                        {value:110, name:'NO.2 300-600km'},
+                        {value:150, name:'NO.1 600-1500km'},
+                        {value:40, name:'NO.5 1500km+'}
 
                     ]
                 }

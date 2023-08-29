@@ -26,7 +26,7 @@ $(function () {
                 trigger: 'item',
                 formatter: "{b}: <br/>{c} ({d}%)"
             },
-            color: [ '#2e8f9f', '#8bb8d7', '#4978ea'],
+            color: [ '#2e8f9f', '#8bb8d7', '#4d76da'],
             legend: { //图例组件，颜色和名字
                 x: '70%',
                 y: 'center',
